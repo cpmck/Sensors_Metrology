@@ -1,0 +1,80 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{maletinsky2012robust}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Maletinsky}{M.}%
+     {Patrick}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hong}{H.}%
+     {Sungkun}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Grinolds}{G.}%
+     {Michael~Sean}{M.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hausmann}{H.}%
+     {Birgit}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lukin}{L.}%
+     {Mikhail~D}{M.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Walsworth}{W.}%
+     {Ronald~L}{R.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Loncar}{L.}%
+     {Marko}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yacoby}{Y.}%
+     {Amir}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{MP+1}
+  \strng{fullhash}{MPHSGMSHBLMDWRLLMYA1}
+  \field{sortinit}{M}
+  \field{number}{5}
+  \field{pages}{320\bibrangedash 324}
+  \field{title}{A robust scanning diamond sensor for nanoscale imaging with
+  single nitrogen-vacancy centres}
+  \field{volume}{7}
+  \field{journaltitle}{Nature nanotechnology}
+  \field{year}{2012}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
