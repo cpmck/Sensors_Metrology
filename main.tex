@@ -1,30 +1,66 @@
 \documentclass[12pt]{article}
-\usepackage[backend=bibtex,style=verbose-trad2]{biblatex}
+\usepackage[backend=bibtex]{biblatex}
+\usepackage{graphicx}
+\usepackage{braket}
+\usepackage[pdfencoding=auto, psdextra]{hyperref}
 
 \bibliography{my_bibliography} 
-%\bibliographystyle{ieeetr}
+%\bibliographystyle{ieee}
 
 \begin{document}
+\tableofcontents
 \section{Introduction}
-\section{The NV$^-$ Centre in Diamond}
-Aim: Explain basic physics well so that it is easy to refer back to in the remainder of the report. 
+\section{The NV\texorpdfstring{$^-$} Centre in Diamond}
+A wide variety of defects occur naturally in diamond. Many of these defects allow the absorption and emission of light \cite{zaitsev2001optical}, often giving their host crystal a natural vivid colour. These colour centres are principally due to site vacancies and impurity defects in the crystal, with elements including boron, silicon, nickel and most commonly nitrogen \cite{wu2016diamond}. The negatively charged nitrogen-vacancy (NV$^-$) centre diamond is of particular interest in sensing technologies not only due to their natural abundance, but also due to a number of favourable properties which they posses. 
 
-1.explain the basic physics of NV centres - how they are manipulated addressed read out, energy level diagrams, etc.
-
-2. Explain how they can be used as quantum sensors for varius types of parameters, magneitc field, electric fields, strain temperature etc.
-
-3. Explain the possibilites in fabrication of sensing devices and how amenable they are to sensing in the biological setting. 
-
-\subsection{Basic physics}
-\subsection{Applications in Quantum Sensing}
-\subsection{Fabrication}
+\subsection{Electronic Structure}
+The NV centre localises six electrons at the defect site. The nitrogen atom provides two of its valence electrons while a further three are due to dangling bonds of the diamond's carbon atoms\cite{schirhagl2014nitrogen}. The remaining electron is captured from donor ions in the lattice giving the NV$^-$ colour centre a net negative ($-e$) charge \cite{schirhagl2014nitrogen}. Although the positively charged NV$^+$ and neutral NV$^0$ defects exist, the NV$^-$ is the only variant which is magneto-optically active and is the focus of the vast majority of research \cite{schirhagl2014nitrogen}. Indeed, ionisation to NV$^0$ poses a challenge to the synthesis of shallow NV$^-$ centres \cite{hauf2011chemical}. 
 
 
-\section{Biological Sensing with NV$^-$ centres}
-Aim: Focus on the ways in which the sensing possibilites described in the previous section can be used in biological settings. The advantages/disadvantages/challenges. Give an overview of some of the seminal work done in the area and focus in on the recent developments in the field. many examples. 
+\begin{figure}[h]
+  \includegraphics[width=0.8\linewidth]{energy_level_diagram.png}
+	  \caption{\textbf{Energy-level diagram of NV$^-$ colour centre. The ground $\ket{g}$ and excited $\ket{e}$ state spin triplets have a resonant transition wavelength of 638 nm with a radiative lifetime of $\sim$ 25 ns (for nanodiamonds) \cite{doherty2013nitrogen}. The metastable singlet state $\ket{s}$ has a lifetime of $\sim$ 250 ns. The spin triplet sub-levels are Zeeman split by an external magnetic field while a zero-field splitting D has a value of $D=2,870$ MHz \cite{schirhagl2014nitrogen,doherty2013nitrogen}. Figure:\cite{schirhagl2014nitrogen}}}
+  \label{fig:energy_level}
+\end{figure}
+
+
+\subsection{Optical ans Spin Properties}
+The optical properties of NV$^-$ centres are crucial to their application in sensing technologies. The essential features of the system can be described by a simple energy-level diagram of Figure.\ref{fig:energy_level}. The spin triplet ground $\ket{g}$ and excited $\ket{e}$ states lie between the conduction and valence bands and have an energy splitting of $\sim$1.945 eV \cite{schirhagl2014nitrogen}. A metastable spin singlet state $\ket{s}$ lies between $\ket{g}$ and $\ket{e}$ and has a radiative lifetime of $\sim$ 250 ns \cite{schirhagl2014nitrogen}. The spin triplet states are split into three spin sub-levels labelled by $m_S$. The $m_0$ state is lower in energy than the degenerate $m_{\pm1}$ states due to a zero-field splitting D of 2.87 GHz for $\ket{g}$ and 1.42 GHz for $\ket{e}$ triplets \cite{doherty2013nitrogen}. The triplet $m_{\pm1}$ degeneracy is lifted by an external magnetic field and thus the system can be used as a magnetic field probe. The metastable long-lived state $\ket{s}$ is primarily populated from the $\ket{e,m_{\pm1}}$ states while the $\ket{e,m_0}$ state decays more strongly to $\ket{g}$, as a consequence, an optical contrast between $m_0$ and $m_{\pm1}$ of 30\% arises \cite{schirhagl2014nitrogen}. This spin dependent luminescence is the basis of many sensing applications. 
+
+
+\subsection{Quantum Sensing with NV\texorpdfstring{$^-$} colour centres}
+
+\subsection{Sensing Protocols}
+Sensing involves the measurement of perturbations to a system by interrogation. The measurement of EPR frequency shifts is the principal method of interrogation and a number of protocols to this end exist. 
+
+\subsubsection{Continuous Measurement}
+Continuous measurement involves the measurement of the EPR spectrum across a suitable range and the subsequent fitting of any resonances observed. The application of an external magnetic field will for instance cause the resonance to shift its centre position. Sensitivity can be increased by observing variations in fluorescence intensity and by collecting photons from many NV$^-$ centres, this however is detrimental to the nanoscale sensing characteristics of a single NV$^-$ centre \cite{schirhagl2014nitrogen}. The sensitivity of this measurement technique suffers since the system is continuously being measured, nevertheless sensitivities below kHz/$\sqrt{\textrm{Hz}}$ have been achieved \cite{acosta2010broadband}. A significant body of work has extended the possibilities of sensing using this technique (see \textit{e.g.}\cite{haberle2013high,schoenfeld2011real}) including the sensing of vector fields using multiple NV$^-$ centres with different orientations \cite{maertz2010vector}.
+
+\subsubsection{Pulsed Measurement}
+In pulsed measurements a pump probe scheme is employed in which the system evolves in the perturbing field without any interrogation. The lack of optical pumping during the measurement phase increases sensitivity over long coherent evolution times $\tau$ \cite{maze2008nanoscale}. Furthermore, many pulse schemes have been developed over the years many of which can be employed in these sensing protocols \cite{schirhagl2014nitrogen}.
+
+\subsubsection{Relaxometry}
+Magnetic resonance relaxometry relies upon the fact that the spin relaxation times T$_1$ and T$_2$ are dependant on the environmental degrees of freedom of the perturbing system. One particular implementation of relaxometry is the measurement of fluctuating nose in the environment and as in the case of pulsed measurement, many protocols and techniques exist for the sensitive measurement and characterisation of spin relaxation times \cite{steinert2013magnetic}.
+
+\subsection{Measurement Applications}
+
+The sensitive measurement of magnetic field 
+
+
+,
+2. Explain how they can be used as quantum sensors for varius types of parameters, magneitc field, electric fields, strain temperature etc. nanoscale sensing. mention protocols etc. (protocols which allow sensing)
+
+
+\section{Fabrication/Synthesis}
+AIM: Explain the current possibilites in syntheisi/fabrication of diamonds/nanodiamonds for sensing devices. 
+
+Focus on how amenable they are to sensing in the biological setting. Elucidate some of the problems in syntehsis. 
+
+\section{Biological Sensing with NV\texorpdfstring{$^-$} centres}
+Aim: Focus on the ways in which the sensing possibilites described in the previous section can be used in biological settings. The advantages/disadvantages/challenges. Give an overview of some of the seminal work done in the area and focus in on the recent developments in the field. many examples. Talk about conventional approaches, comparte to quantum dots etc. cytotoxicity etc etc. In Vivo sensing: the posibilities. Biocompatibility
 
 \section{Conclusion}
-\cite{maletinsky2012robust}
+this  is to be cited \cite{maletinsky2012robust}
 
 \newpage
 \printbibliography
