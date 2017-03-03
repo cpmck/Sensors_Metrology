@@ -64,6 +64,123 @@
   \field{year}{2010}
 \endentry
 
+\entry{acosta2010temperature}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Acosta}{A.}%
+     {VM}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bauch}{B.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ledbetter}{L.}%
+     {MP}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Waxman}{W.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bouchard}{B.}%
+     {L-S}{L.-S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Budker}{B.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{AV+1}
+  \strng{fullhash}{AVBELMWABLSBD1}
+  \field{sortinit}{A}
+  \field{number}{7}
+  \field{pages}{070801}
+  \field{title}{Temperature dependence of the nitrogen-vacancy magnetic
+  resonance in diamond}
+  \field{volume}{104}
+  \field{journaltitle}{Physical review letters}
+  \field{year}{2010}
+\endentry
+
+\entry{doherty2014electronic}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Doherty}{D.}%
+     {Marcus~W}{M.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Struzhkin}{S.}%
+     {Viktor~V}{V.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Simpson}{S.}%
+     {David~A}{D.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McGuinness}{M.}%
+     {Liam~P}{L.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Meng}{M.}%
+     {Yufei}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stacey}{S.}%
+     {Alastair}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Karle}{K.}%
+     {Timothy~J}{T.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hemley}{H.}%
+     {Russell~J}{R.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Manson}{M.}%
+     {Neil~B}{N.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hollenberg}{H.}%
+     {Lloyd~CL}{L.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{DMW+1}
+  \strng{fullhash}{DMWSVVSDAMLPMYSAKTJHRJMNBHLC+1}
+  \field{sortinit}{D}
+  \field{number}{4}
+  \field{pages}{047601}
+  \field{title}{Electronic properties and metrology applications of the diamond
+  NV- center under pressure}
+  \field{volume}{112}
+  \field{journaltitle}{Physical review letters}
+  \field{year}{2014}
+\endentry
+
 \entry{doherty2013nitrogen}{article}{}
   \name{author}{6}{}{%
     {{}%
@@ -221,6 +338,63 @@
   \field{volume}{83}
   \field{journaltitle}{Physical Review B}
   \field{year}{2011}
+\endentry
+
+\entry{kucsko2013nanometre}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Kucsko}{K.}%
+     {Georg}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maurer}{M.}%
+     {PC}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yao}{Y.}%
+     {Norman~Ying}{N.~Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kubo}{K.}%
+     {MICHAEL}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Noh}{N.}%
+     {HJ}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lo}{L.}%
+     {PK}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Park}{P.}%
+     {Hongkun}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lukin}{L.}%
+     {Mikhail~D}{M.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{KG+1}
+  \strng{fullhash}{KGMPYNYKMNHLPPHLMD1}
+  \field{sortinit}{K}
+  \field{number}{7460}
+  \field{pages}{54\bibrangedash 58}
+  \field{title}{Nanometre-scale thermometry in a living cell}
+  \field{volume}{500}
+  \field{journaltitle}{Nature}
+  \field{year}{2013}
 \endentry
 
 \entry{maertz2010vector}{article}{}
@@ -393,6 +567,75 @@
   \field{year}{2008}
 \endentry
 
+\entry{neumann2013high}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Neumann}{N.}%
+     {Philipp}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jakobi}{J.}%
+     {Ingmar}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dolde}{D.}%
+     {Florian}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Burk}{B.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reuter}{R.}%
+     {Rolf}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Waldherr}{W.}%
+     {Gerald}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Honert}{H.}%
+     {Jan}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wolf}{W.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brunner}{B.}%
+     {Andreas}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shim}{S.}%
+     {Jeong~Hyun}{J.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACS Publications}%
+  }
+  \strng{namehash}{NP+1}
+  \strng{fullhash}{NPJIDFBCRRWGHJWTBASJH+1}
+  \field{sortinit}{N}
+  \field{number}{6}
+  \field{pages}{2738\bibrangedash 2742}
+  \field{title}{High-precision nanoscale temperature sensing using single
+  defects in diamond}
+  \field{volume}{13}
+  \field{journaltitle}{Nano letters}
+  \field{year}{2013}
+\endentry
+
 \entry{schirhagl2014nitrogen}{article}{}
   \name{author}{4}{}{%
     {{}%
@@ -522,6 +765,49 @@
   sub-cellular resolution}
   \field{volume}{4}
   \field{journaltitle}{Nature communications}
+  \field{year}{2013}
+\endentry
+
+\entry{toyli2013fluorescence}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Toyli}{T.}%
+     {David~M}{D.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Charles}{C.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Christle}{C.}%
+     {David~J}{D.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dobrovitski}{D.}%
+     {Viatcheslav~V}{V.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Awschalom}{A.}%
+     {David~D}{D.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {National Acad Sciences}%
+  }
+  \strng{namehash}{TDM+1}
+  \strng{fullhash}{TDMCFCDJDVVADD1}
+  \field{sortinit}{T}
+  \field{number}{21}
+  \field{pages}{8417\bibrangedash 8421}
+  \field{title}{Fluorescence thermometry enhanced by the quantum coherence of
+  single spins in diamond}
+  \field{volume}{110}
+  \field{journaltitle}{Proceedings of the National Academy of Sciences}
   \field{year}{2013}
 \endentry
 

@@ -1,13 +1,39 @@
-\documentclass[12pt]{article}
+\documentclass[10pt]{article}
 \usepackage[backend=bibtex]{biblatex}
 \usepackage{graphicx}
 \usepackage{braket}
 \usepackage[pdfencoding=auto, psdextra]{hyperref}
+\usepackage{multicol}
+\usepackage{geometry}
+
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left = 20mm,
+ top = 20mm, 
+ }
+
+\setcounter{secnumdepth}{1}
+\usepackage{abstract}
+\renewcommand{\abstractname}{}    % clear the title
+\renewcommand{\absnamepos}{empty} % originally center
+\renewcommand{\thesection}{\Roman{section}} 
 
 \bibliography{my_bibliography} 
 %\bibliographystyle{ieee}
 
 \begin{document}
+
+\LARGE\textbf{Biological Sensing with NV centres in Diamond}
+\vspace{0.8cm}
+
+\begin{abstract}
+\textbf{This is the abstract}
+\end{abstract}
+
+
+\begin{multicols}{2}
+\normalsize
 \tableofcontents
 \section{Introduction}
 \section{The NV\texorpdfstring{$^-$} Centre in Diamond}
@@ -27,8 +53,13 @@ The NV centre localises six electrons at the defect site. The nitrogen atom prov
 \subsection{Optical ans Spin Properties}
 The optical properties of NV$^-$ centres are crucial to their application in sensing technologies. The essential features of the system can be described by a simple energy-level diagram of Figure.\ref{fig:energy_level}. The spin triplet ground $\ket{g}$ and excited $\ket{e}$ states lie between the conduction and valence bands and have an energy splitting of $\sim$1.945 eV \cite{schirhagl2014nitrogen}. A metastable spin singlet state $\ket{s}$ lies between $\ket{g}$ and $\ket{e}$ and has a radiative lifetime of $\sim$ 250 ns \cite{schirhagl2014nitrogen}. The spin triplet states are split into three spin sub-levels labelled by $m_S$. The $m_0$ state is lower in energy than the degenerate $m_{\pm1}$ states due to a zero-field splitting D of 2.87 GHz for $\ket{g}$ and 1.42 GHz for $\ket{e}$ triplets \cite{doherty2013nitrogen}. The triplet $m_{\pm1}$ degeneracy is lifted by an external magnetic field and thus the system can be used as a magnetic field probe. The metastable long-lived state $\ket{s}$ is primarily populated from the $\ket{e,m_{\pm1}}$ states while the $\ket{e,m_0}$ state decays more strongly to $\ket{g}$, as a consequence, an optical contrast between $m_0$ and $m_{\pm1}$ of 30\% arises \cite{schirhagl2014nitrogen}. This spin dependent luminescence is the basis of many sensing applications. 
 
+\section{Synthesis}
+AIM: Explain the current possibilities in synthesis/fabrication of diamonds/nanodiamonds for sensing devices. 
 
-\subsection{Quantum Sensing with NV\texorpdfstring{$^-$} colour centres}
+Focus on how amenable they are to sensing in the biological setting. Elucidate some of the problems in synthesis. 
+
+
+\section{Sensing with NV centres}
 
 \subsection{Sensing Protocols}
 Sensing involves the measurement of perturbations to a system by interrogation. The measurement of EPR frequency shifts is the principal method of interrogation and a number of protocols to this end exist. 
@@ -40,30 +71,35 @@ Continuous measurement involves the measurement of the EPR spectrum across a sui
 In pulsed measurements a pump probe scheme is employed in which the system evolves in the perturbing field without any interrogation. The lack of optical pumping during the measurement phase increases sensitivity over long coherent evolution times $\tau$ \cite{maze2008nanoscale}. Furthermore, many pulse schemes have been developed over the years many of which can be employed in these sensing protocols \cite{schirhagl2014nitrogen}.
 
 \subsubsection{Relaxometry}
-Magnetic resonance relaxometry relies upon the fact that the spin relaxation times T$_1$ and T$_2$ are dependant on the environmental degrees of freedom of the perturbing system. One particular implementation of relaxometry is the measurement of fluctuating nose in the environment and as in the case of pulsed measurement, many protocols and techniques exist for the sensitive measurement and characterisation of spin relaxation times \cite{steinert2013magnetic}.
+Magnetic resonance relaxometry relies upon the fact that the spin relaxation times T$_1$ and T$_2$ are dependant on the environmental degrees of freedom of the perturbing system. One particular implementation of relaxometry is the measurement of fluctuating noise in the environment and as in the case of pulsed measurement, many protocols and techniques exist for the sensitive measurement and characterisation of spin relaxation times \cite{steinert2013magnetic}. MORE CITITATIONS
 
 \subsection{Measurement Applications}
+Sensing of magnetic fields is perhaps the most direct measurement application of NV$^-$ centres, however their proper-ties allow for the sensing of other environmental parameters such as temperature, pressure and strain. 
 
-The sensitive measurement of magnetic field 
-
-
-,
-2. Explain how they can be used as quantum sensors for varius types of parameters, magneitc field, electric fields, strain temperature etc. nanoscale sensing. mention protocols etc. (protocols which allow sensing)
+\subsubsection{Magnetic and Electric Field Sensing}
+\subsubsection{Spin Environment Sensing}
 
 
-\section{Fabrication/Synthesis}
-AIM: Explain the current possibilites in syntheisi/fabrication of diamonds/nanodiamonds for sensing devices. 
+\subsubsection{Thermometry} 
+It has been shown \cite{acosta2010temperature} that the zero field splitting parameter (ZFS), D has a significant dependence on temperature T. Across a variety of samples it was found that $dD/dT = -74.2(7)$ kHz/K while the transverse ZFS parameter E had a dependence $dE/dT = -1.4(3)\times10^{-4}$ $K^{-1}$ \cite{acosta2010temperature}. This effect is likely due thermal expansion of the crystalline environment and limits the sensitivity of NV$^-$ centres in noisy thermal environments, it can also be exploited as a method to use the NV$^-$ centre as a nanoscale thermometer \cite{toyli2013fluorescence,neumann2013high,kucsko2013nanometre}. Using an ultrapure bulk sample of diamond it was shown \cite{kucsko2013nanometre} that temperature variations of 1.8 mK at a sensitivity of 9 mK Hz$^{-1/2}$ are measurable using a pulse sequence protocol. Furthermore the local thermal environment could be resolved at 200 nm length scales. These techniques allow the mapping of subcellular temperature gradients \cite{kucsko2013nanometre} demonstrating the potential of this technique in biological systems (see section .....) 
 
-Focus on how amenable they are to sensing in the biological setting. Elucidate some of the problems in syntehsis. 
+\subsubsection{Strain and Pressure Sensing}
+The effects of hydrostatic pressure on the behaviour of NV$^-$ centres has been investigated \cite{doherty2014electronic}. It was found that the variation of the ZFS parameter D with pressure P was highly linear at $dD/dP = 14.58(6)$ MHz/GPa \cite{doherty2014electronic}. The measurements were performed in a diamond anvil cell capable of reaching extreme pressures and the technique may offer improved sensitivity over current pressure sensing techniques in these environments \cite{doherty2014electronic}. 
 
-\section{Biological Sensing with NV\texorpdfstring{$^-$} centres}
-Aim: Focus on the ways in which the sensing possibilites described in the previous section can be used in biological settings. The advantages/disadvantages/challenges. Give an overview of some of the seminal work done in the area and focus in on the recent developments in the field. many examples. Talk about conventional approaches, comparte to quantum dots etc. cytotoxicity etc etc. In Vivo sensing: the posibilities. Biocompatibility
+\section{Biological Sensing}
+Aim: Focus on the ways in which the sensing possibilities described in the previous section can be used in biological settings. The advantages/disadvantages/challenges. Give an overview of some of the seminal work done in the area and focus in on the recent developments in the field. many examples. Talk about conventional approaches, comparte to quantum dots etc. cytotoxicity etc etc. In Vivo sensing: the posibilities. Biocompatibility
+
+\subsection{Broad Examples of biological sensing}
+\subsection{Recent development 1}
+\subsection{Recent Development 2}
 
 \section{Conclusion}
 this  is to be cited \cite{maletinsky2012robust}
 
 \newpage
 \printbibliography
+
+\end{multicols}
 
 \end{document}
 

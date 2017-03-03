@@ -1,27 +1,41 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {I}Introduction}{1}{section.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}The NV$^-$entre in Diamond}{1}{section.2}
+\contentsline {section}{\numberline {II}The NV$^-$entre in Diamond}{1}{section.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Electronic Structure}{1}{subsection.2.1}
+\contentsline {subsection}{Electronic Structure}{1}{section*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Optical ans Spin Properties}{2}{subsection.2.2}
+\contentsline {subsection}{Optical ans Spin Properties}{1}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Quantum Sensing with NV$^-$olour centres}{3}{subsection.2.3}
+\contentsline {section}{\numberline {III}Synthesis}{1}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}Sensing Protocols}{3}{subsection.2.4}
+\contentsline {section}{\numberline {IV}Sensing with NV centres}{1}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.1}Continuous Measurement}{3}{subsubsection.2.4.1}
+\contentsline {subsection}{Sensing Protocols}{1}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.2}Pulsed Measurement}{3}{subsubsection.2.4.2}
+\contentsline {subsubsection}{Continuous Measurement}{1}{section*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.3}Relaxometry}{4}{subsubsection.2.4.3}
+\contentsline {subsubsection}{Pulsed Measurement}{2}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}Measurement Applications}{4}{subsection.2.5}
+\contentsline {subsubsection}{Relaxometry}{2}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Fabrication/Synthesis}{4}{section.3}
+\contentsline {subsection}{Measurement Applications}{2}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Biological Sensing with NV$^-$entres}{4}{section.4}
+\contentsline {subsubsection}{Magnetic and Electric Field Sensing}{2}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Conclusion}{4}{section.5}
+\contentsline {subsubsection}{Spin Environment Sensing}{2}{section*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Thermometry}{2}{section*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Strain and Pressure Sensing}{2}{section*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {V}Biological Sensing}{2}{section.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Broad Examples of biological sensing}{2}{section*.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Recent development 1}{2}{section*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Recent Development 2}{2}{section*.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {VI}Conclusion}{2}{section.6}
