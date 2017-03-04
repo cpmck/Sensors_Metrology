@@ -112,6 +112,132 @@
   \field{year}{2010}
 \endentry
 
+\entry{amans2009nanodiamond}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Amans}{A.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chenus}{C.}%
+     {Anne-Claire}{A.-C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ledoux}{L.}%
+     {Gilles}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dujardin}{D.}%
+     {Christophe}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reynaud}{R.}%
+     {Cecile}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sublemontier}{S.}%
+     {Olivier}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Masenelli-Varlot}{M.-V.}%
+     {Karine}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guillois}{G.}%
+     {Olivier}{O.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{AD+1}
+  \strng{fullhash}{ADCACLGDCRCSOMVKGO1}
+  \field{sortinit}{A}
+  \field{number}{2}
+  \field{pages}{177\bibrangedash 180}
+  \field{title}{Nanodiamond synthesis by pulsed laser ablation in liquids}
+  \field{volume}{18}
+  \field{journaltitle}{Diamond and Related Materials}
+  \field{year}{2009}
+\endentry
+
+\entry{balasubramanian2008nanoscale}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Balasubramanian}{B.}%
+     {Gopalakrishnan}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chan}{C.}%
+     {IY}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kolesov}{K.}%
+     {Roman}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Al-Hmoud}{A.-H.}%
+     {Mohannad}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tisler}{T.}%
+     {Julia}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shin}{S.}%
+     {Chang}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kim}{K.}%
+     {Changdong}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wojcik}{W.}%
+     {Aleksander}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hemmer}{H.}%
+     {Philip~R}{P.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krueger}{K.}%
+     {Anke}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{BG+1}
+  \strng{fullhash}{BGCIKRAHMTJSCKCWAHPRKA+1}
+  \field{sortinit}{B}
+  \field{number}{7213}
+  \field{pages}{648\bibrangedash 651}
+  \field{title}{Nanoscale imaging magnetometry with diamond spins under ambient
+  conditions}
+  \field{volume}{455}
+  \field{journaltitle}{Nature}
+  \field{year}{2008}
+\endentry
+
 \entry{doherty2014electronic}{article}{}
   \true{moreauthor}
   \name{author}{10}{}{%
@@ -228,6 +354,74 @@
   \field{year}{2013}
 \endentry
 
+\entry{dolde2011electric}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Dolde}{D.}%
+     {Florian}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fedder}{F.}%
+     {Helmut}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Doherty}{D.}%
+     {Marcus~W}{M.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {N{\"o}bauer}{N.}%
+     {Tobias}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rempp}{R.}%
+     {Florian}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Balasubramanian}{B.}%
+     {Gopalakrishnan}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wolf}{W.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reinhard}{R.}%
+     {Friedemann}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hollenberg}{H.}%
+     {Lloyd~CL}{L.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jelezko}{J.}%
+     {Fedor}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Research}%
+  }
+  \strng{namehash}{DF+1}
+  \strng{fullhash}{DFFHDMWNTRFBGWTRFHLCJF+1}
+  \field{sortinit}{D}
+  \field{number}{6}
+  \field{pages}{459\bibrangedash 463}
+  \field{title}{Electric-field sensing using single diamond spins}
+  \field{volume}{7}
+  \field{journaltitle}{Nature Physics}
+  \field{year}{2011}
+\endentry
+
 \entry{haberle2013high}{article}{}
   \name{author}{5}{}{%
     {{}%
@@ -269,6 +463,74 @@
   \field{volume}{111}
   \field{journaltitle}{Physical review letters}
   \field{year}{2013}
+\endentry
+
+\entry{hall2012high}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Hall}{H.}%
+     {LT}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beart}{B.}%
+     {GCG}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thomas}{T.}%
+     {EA}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Simpson}{S.}%
+     {DA}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McGuinness}{M.}%
+     {LP}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cole}{C.}%
+     {JH}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Manton}{M.}%
+     {JH}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Scholten}{S.}%
+     {RE}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jelezko}{J.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wrachtrup}{W.}%
+     {J{\"o}rg}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{HL+1}
+  \strng{fullhash}{HLBGTESDMLCJMJSRJFWJ+1}
+  \field{sortinit}{H}
+  \field{pages}{401}
+  \field{title}{High spatial and temporal resolution wide-field imaging of
+  neuron activity using quantum NV-diamond}
+  \field{volume}{2}
+  \field{journaltitle}{Scientific reports}
+  \field{year}{2012}
 \endentry
 
 \entry{hauf2011chemical}{article}{}
@@ -340,6 +602,43 @@
   \field{year}{2011}
 \endentry
 
+\entry{huang2007active}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Huang}{H.}%
+     {Houjin}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pierstorff}{P.}%
+     {Erik}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Osawa}{O.}%
+     {Eiji}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ho}{H.}%
+     {Dean}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACS Publications}%
+  }
+  \strng{namehash}{HH+1}
+  \strng{fullhash}{HHPEOEHD1}
+  \field{sortinit}{H}
+  \field{number}{11}
+  \field{pages}{3305\bibrangedash 3314}
+  \field{title}{Active nanodiamond hydrogels for chemotherapeutic delivery}
+  \field{volume}{7}
+  \field{journaltitle}{Nano letters}
+  \field{year}{2007}
+\endentry
+
 \entry{kucsko2013nanometre}{article}{}
   \name{author}{8}{}{%
     {{}%
@@ -393,6 +692,73 @@
   \field{pages}{54\bibrangedash 58}
   \field{title}{Nanometre-scale thermometry in a living cell}
   \field{volume}{500}
+  \field{journaltitle}{Nature}
+  \field{year}{2013}
+\endentry
+
+\entry{le2013optical}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Le~Sage}{L.~S.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arai}{A.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Glenn}{G.}%
+     {DR}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {DeVience}{D.}%
+     {SJ}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pham}{P.}%
+     {LM}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rahn-Lee}{R.-L.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lukin}{L.}%
+     {MD}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yacoby}{Y.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Komeili}{K.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Walsworth}{W.}%
+     {RL}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Research}%
+  }
+  \strng{namehash}{LSD+1}
+  \strng{fullhash}{LSDAKGDDSPLRLLLMYAKAWR1}
+  \field{sortinit}{L}
+  \field{number}{7446}
+  \field{pages}{486\bibrangedash 489}
+  \field{title}{Optical magnetic imaging of living cells}
+  \field{volume}{496}
   \field{journaltitle}{Nature}
   \field{year}{2013}
 \endentry
@@ -701,6 +1067,73 @@
   \field{year}{2011}
 \endentry
 
+\entry{schrand2007differential}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Schrand}{S.}%
+     {Amanda~M}{A.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dai}{D.}%
+     {Liming}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schlager}{S.}%
+     {John~J}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hussain}{H.}%
+     {Saber~M}{S.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Osawa}{O.}%
+     {Eiji}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{SAM+1}
+  \strng{fullhash}{SAMDLSJJHSMOE1}
+  \field{sortinit}{S}
+  \field{number}{12}
+  \field{pages}{2118\bibrangedash 2123}
+  \field{title}{Differential biocompatibility of carbon nanotubes and
+  nanodiamonds}
+  \field{volume}{16}
+  \field{journaltitle}{Diamond and Related Materials}
+  \field{year}{2007}
+\endentry
+
+\entry{shenderova2012ultrananocrystalline}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Shenderova}{S.}%
+     {Olga~A}{O.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gruen}{G.}%
+     {Dieter~M}{D.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {William Andrew}%
+  }
+  \strng{namehash}{SOAGDM1}
+  \strng{fullhash}{SOAGDM1}
+  \field{sortinit}{S}
+  \field{title}{Ultrananocrystalline diamond: synthesis, properties and
+  applications}
+  \field{year}{2012}
+\endentry
+
 \entry{steinert2013magnetic}{article}{}
   \name{author}{10}{}{%
     {{}%
@@ -809,6 +1242,59 @@
   \field{volume}{110}
   \field{journaltitle}{Proceedings of the National Academy of Sciences}
   \field{year}{2013}
+\endentry
+
+\entry{vaijayanthimala2012long}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Vaijayanthimala}{V.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cheng}{C.}%
+     {Po-Yun}{P.-Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yeh}{Y.}%
+     {Shih-Hua}{S.-H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Kuang-Kai}{K.-K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hsiao}{H.}%
+     {Cheng-Hsiang}{C.-H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chao}{C.}%
+     {Jui-I}{J.-I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chang}{C.}%
+     {Huan-Cheng}{H.-C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{VV+1}
+  \strng{fullhash}{VVCPYYSHLKKHCHCJICHC1}
+  \field{sortinit}{V}
+  \field{number}{31}
+  \field{pages}{7794\bibrangedash 7802}
+  \field{title}{The long-term stability and biocompatibility of fluorescent
+  nanodiamond as an in vivo contrast agent}
+  \field{volume}{33}
+  \field{journaltitle}{Biomaterials}
+  \field{year}{2012}
 \endentry
 
 \entry{wu2016diamond}{article}{}

@@ -10,32 +10,36 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {III}Synthesis}{1}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {IV}Sensing with NV centres}{1}{section.4}
+\contentsline {subsection}{Bulk Diamonds}{1}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Sensing Protocols}{1}{section*.4}
+\contentsline {subsection}{Nanodiamonds}{2}{section*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Continuous Measurement}{1}{section*.5}
+\contentsline {section}{\numberline {IV}Sensing with NV centres}{2}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Pulsed Measurement}{2}{section*.6}
+\contentsline {subsection}{Sensing Protocols}{2}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Relaxometry}{2}{section*.7}
+\contentsline {subsubsection}{Continuous Measurement}{2}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Measurement Applications}{2}{section*.8}
+\contentsline {subsubsection}{Pulsed Measurement}{2}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Magnetic and Electric Field Sensing}{2}{section*.9}
+\contentsline {subsubsection}{Relaxometry}{2}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Spin Environment Sensing}{2}{section*.10}
+\contentsline {subsection}{Applications in Biological Sensing}{2}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Thermometry}{2}{section*.11}
+\contentsline {subsubsection}{Electric Field Sensing}{2}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Strain and Pressure Sensing}{2}{section*.12}
+\contentsline {subsubsection}{Magnetic Field Sensing}{2}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {V}Biological Sensing}{2}{section.5}
+\contentsline {subsubsection}{Measuring Ion Concentrations}{2}{section*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Broad Examples of biological sensing}{2}{section*.13}
+\contentsline {subsubsection}{Scanning Magnetometry}{2}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Recent development 1}{2}{section*.14}
+\contentsline {subsubsection}{Thermometry}{3}{section*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Recent Development 2}{2}{section*.15}
+\contentsline {subsubsection}{Strain and Pressure Sensing}{3}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {VI}Conclusion}{2}{section.6}
+\contentsline {subsection}{Recent development 1}{3}{section*.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Recent Development 2}{3}{section*.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {V}Conclusion}{3}{section.5}

@@ -119,7 +119,7 @@ INPUT ./main.out
 INPUT ./main.out
 OUTPUT main.out
 INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
@@ -127,7 +127,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT main.toc
 INPUT main.toc
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 OUTPUT main.toc
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-pdfdoc.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-pdfdoc.def
@@ -139,8 +138,11 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT energy_level_diagram.png
 INPUT ./energy_level_diagram.png
 INPUT ./energy_level_diagram.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT magnetometry.jpg
+INPUT ./magnetometry.jpg
+INPUT ./magnetometry.jpg
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out

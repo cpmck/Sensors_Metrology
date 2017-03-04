@@ -19,48 +19,52 @@ Repeated entry---line 67 of file my_bibliography.bib
  : @article{maletinsky2012robust
  :                              ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 248 of file my_bibliography.bib
+ : @article{balasubramanian2008nanoscale
+ :                                      ,
+I'm skipping whatever remains of this entry
 Biblatex version: 2.8
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 18 entries,
+You've used 27 entries,
             6047 wiz_defined-function locations,
-            1246 strings with 12186 characters,
-and the built_in function-call counts, 71580 in all, are:
-= -- 2931
-> -- 2391
-< -- 592
-+ -- 979
-- -- 999
-* -- 6608
-:= -- 4547
+            1294 strings with 14415 characters,
+and the built_in function-call counts, 110905 in all, are:
+= -- 4573
+> -- 3714
+< -- 928
++ -- 1538
+- -- 1563
+* -- 10358
+:= -- 6952
 add.period$ -- 0
-call.type$ -- 18
-change.case$ -- 393
+call.type$ -- 27
+change.case$ -- 621
 chr.to.int$ -- 34
-cite$ -- 34
-duplicate$ -- 8328
-empty$ -- 7091
-format.name$ -- 1964
-if$ -- 15503
+cite$ -- 52
+duplicate$ -- 12961
+empty$ -- 10928
+format.name$ -- 3098
+if$ -- 23979
 int.to.chr$ -- 0
-int.to.str$ -- 53
+int.to.str$ -- 80
 missing$ -- 0
-newline$ -- 861
-num.names$ -- 961
-pop$ -- 5773
+newline$ -- 1342
+num.names$ -- 1487
+pop$ -- 8843
 preamble$ -- 1
-purify$ -- 504
+purify$ -- 799
 quote$ -- 0
-skip$ -- 3789
+skip$ -- 5866
 stack$ -- 0
-substring$ -- 1864
-swap$ -- 2913
-text.length$ -- 522
-text.prefix$ -- 46
+substring$ -- 2911
+swap$ -- 4533
+text.length$ -- 792
+text.prefix$ -- 62
 top$ -- 1
-type$ -- 672
+type$ -- 1014
 warning$ -- 0
-while$ -- 366
+while$ -- 534
 width$ -- 0
-write$ -- 842
-(There was 1 error message)
+write$ -- 1314
+(There were 2 error messages)

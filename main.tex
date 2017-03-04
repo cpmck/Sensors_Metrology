@@ -22,10 +22,28 @@
 \bibliography{my_bibliography} 
 %\bibliographystyle{ieee}
 
+\makeatletter
+\renewcommand{\maketitle}{\bgroup\setlength{\parindent}{0pt}
+\begin{flushleft}
+  \textbf{\@title}
+
+  \@author
+\end{flushleft}\egroup
+}
+\makeatother
+
+\title{\LARGE Biological Sensing with Diamond NV Centres}
+\date{}
+\author{\vspace{3mm}
+Conor Mc Keever, University College London
+}
+
+
+
 \begin{document}
 
-\LARGE\textbf{Biological Sensing with NV centres in Diamond}
-\vspace{0.8cm}
+\maketitle
+\vspace{0.4cm}
 
 \begin{abstract}
 \textbf{This is the abstract}
@@ -54,11 +72,11 @@ The NV centre localises six electrons at the defect site. The nitrogen atom prov
 The optical properties of NV$^-$ centres are crucial to their application in sensing technologies. The essential features of the system can be described by a simple energy-level diagram of Figure.\ref{fig:energy_level}. The spin triplet ground $\ket{g}$ and excited $\ket{e}$ states lie between the conduction and valence bands and have an energy splitting of $\sim$1.945 eV \cite{schirhagl2014nitrogen}. A metastable spin singlet state $\ket{s}$ lies between $\ket{g}$ and $\ket{e}$ and has a radiative lifetime of $\sim$ 250 ns \cite{schirhagl2014nitrogen}. The spin triplet states are split into three spin sub-levels labelled by $m_S$. The $m_0$ state is lower in energy than the degenerate $m_{\pm1}$ states due to a zero-field splitting D of 2.87 GHz for $\ket{g}$ and 1.42 GHz for $\ket{e}$ triplets \cite{doherty2013nitrogen}. The triplet $m_{\pm1}$ degeneracy is lifted by an external magnetic field and thus the system can be used as a magnetic field probe. The metastable long-lived state $\ket{s}$ is primarily populated from the $\ket{e,m_{\pm1}}$ states while the $\ket{e,m_0}$ state decays more strongly to $\ket{g}$, as a consequence, an optical contrast between $m_0$ and $m_{\pm1}$ of 30\% arises \cite{schirhagl2014nitrogen}. This spin dependent luminescence is the basis of many sensing applications. 
 
 \section{Synthesis}
-AIM: Explain the current possibilities in synthesis/fabrication of diamonds/nanodiamonds for sensing devices. 
+\subsection{Bulk Diamonds}
+Synthetic diamonds can be synthesized by a variety of methods. These include high-pressure-high-temperature (HPHT) growth and chemical vapour deposition (CVD). The majority of bulk diamonds are produced by HPHT growth and the method offers a high degree of control over the size and quality of the diamonds \cite{wu2016diamond}. As an artefact of the growth process, most of these diamonds contain nitrogen impurities and have dimensions ranging from micrometers up to a few millimetres. Lattice vacancies can be produced by irradiation with high-energy particles and subsequent annealing allows the formation of NV centres \cite{wu2016diamond}. CVD involves the low pressure growth of diamonds by using carbon-rich gases. The gases are fragmented using a plasma created between two electrodes, the carbon then reassembles into a diamond film \cite{wu2016diamond}. Performing CVD in the presence of a nitrogen gas mixture allows the creation of NV centres in the diamond offering control over the concentration of NV centres \cite{wu2016diamond}. 
 
-Focus on how amenable they are to sensing in the biological setting. Elucidate some of the problems in synthesis. 
-
-
+\subsection{Nanodiamonds}
+The fabrication of nanodiamonds is possible via a wide variety of methods such as detonation \cite{shenderova2012ultrananocrystalline}and laser ablation \cite{amans2009nanodiamond}, however many are not suitable for applications in sensing. The ideal nanodiamond for sensing applications would contain a highly stable NV centre in a defect free crystalline diamond environment \cite{wu2016diamond}. For this reason, nanodiamonds for quantum sensing are normally prepared by milling of HPTP microdiamonds and CVD. Irradiation and annealing can be used to increase the concetration of NV centres however precise control over the size, shape and NV concentration of nanodiamonds remains a challenge \cite{wu2016diamond}. 
 \section{Sensing with NV centres}
 
 \subsection{Sensing Protocols}
@@ -73,23 +91,41 @@ In pulsed measurements a pump probe scheme is employed in which the system evolv
 \subsubsection{Relaxometry}
 Magnetic resonance relaxometry relies upon the fact that the spin relaxation times T$_1$ and T$_2$ are dependant on the environmental degrees of freedom of the perturbing system. One particular implementation of relaxometry is the measurement of fluctuating noise in the environment and as in the case of pulsed measurement, many protocols and techniques exist for the sensitive measurement and characterisation of spin relaxation times \cite{steinert2013magnetic}. MORE CITITATIONS
 
-\subsection{Measurement Applications}
-Sensing of magnetic fields is perhaps the most direct measurement application of NV$^-$ centres, however their proper-ties allow for the sensing of other environmental parameters such as temperature, pressure and strain. 
 
-\subsubsection{Magnetic and Electric Field Sensing}
-\subsubsection{Spin Environment Sensing}
+\subsection{Applications in Biological Sensing}
+NV centres have properties which make them highly attractive for applications in biology. Nanodiamonds are considered stable and biocompatible, having less cytotoxixity than many other materials \cite{vaijayanthimala2012long,schrand2007differential}, which makes them ideal candidates for in-vivo and in-vitro applications. Nanodiamonds have been used in drug delivery in living systems \cite{huang2007active} which is a testiment to their biocompatibility, however questions remain over the nanotoxicity (toxixity due to nanometre sizes) of nanodaimonds \cite{schrand2007differential}. Their inert nature allows NV centres to probe biological systems non-invasively and their room temperature operation offers advantages over sensing systems which require external environments such as cryogenic temperatures \cite{wu2016diamond}. 
+
+\subsubsection{Electric Field Sensing}
+The sensing of electromagnetic fields is perhaps the most powerful and direct application of NV$^-$ centres in diamond. The measurement of AC electric fields at sensitivities of $\sim$140 V/cm/$\sqrt{\textrm{Hz}}$ has been demonstrated \cite{dolde2011electric}. This is possible due to a Stark shift in the spin sub-levels of the NV centre producing optically observable shifts in resonance peaks in the presence of an external electric field \cite{dolde2011electric}. Electric field measurements of this type implemented using nanodiamond sensors may allow for probing of cell membrane potentials which experience a strong potential drop across the cell boundary \cite{schirhagl2014nitrogen}. 
+
+
+\subsubsection{Magnetic Field Sensing}
+
+Arrays of shallow NV$^-$ centres in diamond plates have been used in wide-field microscopy experiments in which the fluorescence of an entire array centres could be monitored simultaneously. Using this method, vector fields created by magnetic particles produced in immobilised bacteria on the surface of the diamond were rapidly reconstructed with subcellular resolution \cite{le2013optical}. A similar wide-field microscopy approach has also been proposed to image neuron  activity \cite{hall2012high}. 
+
+
+\subsubsection{Measuring Ion Concentrations}
+
+\subsubsection{Scanning Magnetometry}
+The basic idea of scanning magnetometry with NV centres is to embed an diamond at the tip of an scanning probe and to scan across a sample. This concept was realised \cite{balasubramanian2008nanoscale}
+
+
+\begin{figure}[h]
+  \includegraphics[width=0.8\linewidth]{magnetometry.jpg}
+	  \caption{\textbf{Caption for this figure Figure:\cite{balasubramanian2008nanoscale}}}
+  \label{fig:energy_level}
+\end{figure}
+
 
 
 \subsubsection{Thermometry} 
-It has been shown \cite{acosta2010temperature} that the zero field splitting parameter (ZFS), D has a significant dependence on temperature T. Across a variety of samples it was found that $dD/dT = -74.2(7)$ kHz/K while the transverse ZFS parameter E had a dependence $dE/dT = -1.4(3)\times10^{-4}$ $K^{-1}$ \cite{acosta2010temperature}. This effect is likely due thermal expansion of the crystalline environment and limits the sensitivity of NV$^-$ centres in noisy thermal environments, it can also be exploited as a method to use the NV$^-$ centre as a nanoscale thermometer \cite{toyli2013fluorescence,neumann2013high,kucsko2013nanometre}. Using an ultrapure bulk sample of diamond it was shown \cite{kucsko2013nanometre} that temperature variations of 1.8 mK at a sensitivity of 9 mK Hz$^{-1/2}$ are measurable using a pulse sequence protocol. Furthermore the local thermal environment could be resolved at 200 nm length scales. These techniques allow the mapping of subcellular temperature gradients \cite{kucsko2013nanometre} demonstrating the potential of this technique in biological systems (see section .....) 
+It has been shown \cite{acosta2010temperature} that the zero field splitting parameter (ZFS), D has a significant dependence on temperature T. Across a variety of samples it was found that $dD/dT = -74.2(7)$ kHz/K while the transverse ZFS parameter E had a dependence $dE/dT = -1.4(3)\times10^{-4}$ $K^{-1}$ \cite{acosta2010temperature}. This effect is likely due thermal expansion of the crystalline environment and limits the sensitivity of NV$^-$ centres in noisy thermal environments, it can also be exploited as a method to use the NV$^-$ centre as a nanoscale thermometer \cite{toyli2013fluorescence,neumann2013high,kucsko2013nanometre}. Using an ultrapure bulk sample of diamond it was shown \cite{kucsko2013nanometre} that temperature variations of 1.8 mK at a sensitivity of 9 mK Hz$^{-1/2}$ are measurable using a pulse sequence protocol. Furthermore the local thermal environment could be resolved at 200 nm length scales.
+
+These techniques allow the mapping of subcellular temperature gradients \cite{kucsko2013nanometre} demonstrating the potential of this technique in biological systems. Elaborate on this subject....
 
 \subsubsection{Strain and Pressure Sensing}
-The effects of hydrostatic pressure on the behaviour of NV$^-$ centres has been investigated \cite{doherty2014electronic}. It was found that the variation of the ZFS parameter D with pressure P was highly linear at $dD/dP = 14.58(6)$ MHz/GPa \cite{doherty2014electronic}. The measurements were performed in a diamond anvil cell capable of reaching extreme pressures and the technique may offer improved sensitivity over current pressure sensing techniques in these environments \cite{doherty2014electronic}. 
+The effects of hydrostatic pressure on the behaviour of NV$^-$ centres has been investigated \cite{doherty2014electronic}. It was found that the variation of the ZFS parameter D with pressure P was highly linear at $dD/dP = 14.58(6)$ MHz/GPa \cite{doherty2014electronic}. The measurements were performed in a diamond anvil cell capable of reaching extreme pressures and the technique may offer improved sensitivity over current pressure sensing techniques in these environments \cite{doherty2014electronic} however are unlikely to be sufficiently sensitive for applications in biology. 
 
-\section{Biological Sensing}
-Aim: Focus on the ways in which the sensing possibilities described in the previous section can be used in biological settings. The advantages/disadvantages/challenges. Give an overview of some of the seminal work done in the area and focus in on the recent developments in the field. many examples. Talk about conventional approaches, comparte to quantum dots etc. cytotoxicity etc etc. In Vivo sensing: the posibilities. Biocompatibility
-
-\subsection{Broad Examples of biological sensing}
 \subsection{Recent development 1}
 \subsection{Recent Development 2}
 

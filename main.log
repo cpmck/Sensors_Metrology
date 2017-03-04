@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.2.27)  3 MAR 2017 18:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.2.27)  4 MAR 2017 19:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -461,22 +461,22 @@ File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 Package biblatex Info: No input encoding detected.
 (biblatex)             Assuming 'ascii'.
 Package biblatex Info: Automatic encoding selection.
@@ -486,8 +486,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 25.
-Package biblatex Info: Reference segment=0 on input line 25.
+Package biblatex Info: Reference section=0 on input line 43.
+Package biblatex Info: Reference segment=0 on input line 43.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count228
@@ -517,7 +517,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box53
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 43.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -528,9 +528,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 Normal \count register pool exhausted, switching to extended pool.
 \c@section@level=\count277
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -584,12 +584,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: se-pdfdoc.def 2011/12/02 v1.10 stringenc: PDFDocEncoding
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 39.
-<energy_level_diagram.png, id=110, 814.04124pt x 441.65pt>
+(Font)              <14.4> on input line 57.
+<energy_level_diagram.png, id=120, 814.04124pt x 441.65pt>
 File: energy_level_diagram.png Graphic file (type png)
 
 <use energy_level_diagram.png>
-Package pdftex.def Info: energy_level_diagram.png used on input line 47.
+Package pdftex.def Info: energy_level_diagram.png used on input line 65.
 (pdftex.def)             Requested size: 189.47945pt x 102.79712pt.
 
 
@@ -601,24 +601,44 @@ Package multicol Warning: Floats and marginpars not allowed inside `multicols'
 environment!.
 
 
-LaTeX Warning: Reference `fig:energy_level' on page 1 undefined on input line 5
-4.
+LaTeX Warning: Reference `fig:energy_level' on page 1 undefined on input line 7
+2.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<magnetometry.jpg, id=180, 216.81pt x 289.44135pt>
+File: magnetometry.jpg Graphic file (type jpg)
+ <use magnetometry.jpg>
+Package pdftex.def Info: magnetometry.jpg used on input line 114.
+(pdftex.def)             Requested size: 189.47945pt x 252.96906pt.
+
+
+Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
+environment!.
+
+
+Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
+environment!.
+
+[2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+[]\OT1/cmr/m/n/10 Gopalakrishnan Bal-a-sub-ra-ma-nian et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 []\OT1/cmr/m/n/10 Philipp Neu-mann et al. ``High-precision
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
-[3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
+[4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 108.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 108.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E6F4A981F925E4A3E92B0AA94B754D91;1367.
+(rerunfilecheck)             Checksum: 10649151653CC4D999D6479C61AF9531;1492.
 
 
 LaTeX Warning: There were undefined references.
@@ -628,13 +648,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 15165 strings out of 495028
- 223522 string characters out of 6181497
- 403638 words of memory out of 5000000
- 18235 multiletter control sequences out of 15000+600000
- 7332 words of font info for 26 fonts, out of 8000000 for 9000
+ 15193 strings out of 495028
+ 224208 string characters out of 6181497
+ 413727 words of memory out of 5000000
+ 18250 multiletter control sequences out of 15000+600000
+ 7033 words of font info for 25 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 37i,5n,49p,1366b,1886s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,5n,49p,1366b,1882s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
@@ -645,10 +665,10 @@ type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmti10.pfb>
-Output written on main.pdf (3 pages, 136130 bytes).
+Output written on main.pdf (4 pages, 142184 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 204 compressed objects within 3 object streams
- 43 named destinations out of 1000 (max. 500000)
- 166 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 277 PDF objects out of 1000 (max. 8388607)
+ 247 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
 
