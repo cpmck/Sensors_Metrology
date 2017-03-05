@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.2.27)  4 MAR 2017 19:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.2.27)  5 MAR 2017 20:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -442,6 +442,23 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutvoffset=\dimen124
 \Gm@dimlist=\toks15
 )
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen125
+\captionmargin@=\dimen126
+\captionwidth=\dimen127
+\caption@tempdima=\dimen128
+\caption@indent=\dimen129
+\caption@parindent=\dimen130
+\caption@hangindent=\dimen131
+)
+\c@ContinuedFloat=\count226
+Package caption Info: hyperref package is loaded.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/abstract/abstract.sty
 Package: abstract 2009/06/08 v1.2a configurable abstracts
 \abstitleskip=\skip55
@@ -456,27 +473,31 @@ Package biblatex Info: ... file 'english.lbx' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count226
-\@quotereset=\count227
- (./main.aux)
+\@quotelevel=\count227
+\@quotereset=\count228
+ (./main.aux
+
+LaTeX Warning: Label `fig:energy_level' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
 Package biblatex Info: No input encoding detected.
 (biblatex)             Assuming 'ascii'.
 Package biblatex Info: Automatic encoding selection.
@@ -485,21 +506,22 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
-(./main.bbl)
-Package biblatex Info: Reference section=0 on input line 43.
-Package biblatex Info: Reference segment=0 on input line 43.
+ (./main.bbl)
+Package biblatex Info: Reference section=0 on input line 52.
+Package biblatex Info: Reference segment=0 on input line 52.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count228
-\scratchdimen=\dimen125
+\scratchcounter=\count229
+\scratchdimen=\dimen132
 \scratchbox=\box52
-\nofMPsegments=\count229
-\nofMParguments=\count230
+\nofMPsegments=\count230
+\nofMParguments=\count231
 \everyMPshowfont=\toks16
-\MPscratchCnt=\count231
-\MPscratchDim=\dimen126
-\MPnumerator=\count232
-\makeMPintoPDFobject=\count233
+\MPscratchCnt=\count232
+\MPscratchDim=\dimen133
+\MPnumerator=\count233
+Normal \count register pool exhausted, switching to extended pool.
+\makeMPintoPDFobject=\count277
 \everyMPtoPDFconversion=\toks17
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -517,7 +539,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box53
-Package hyperref Info: Link coloring OFF on input line 43.
+Package hyperref Info: Link coloring OFF on input line 52.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -525,12 +547,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-Normal \count register pool exhausted, switching to extended pool.
-\c@section@level=\count277
+\c@section@level=\count278
 )
-LaTeX Info: Redefining \ref on input line 43.
-LaTeX Info: Redefining \pageref on input line 43.
-LaTeX Info: Redefining \nameref on input line 43.
+LaTeX Info: Redefining \ref on input line 52.
+LaTeX Info: Redefining \pageref on input line 52.
+LaTeX Info: Redefining \nameref on input line 52.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -545,14 +566,14 @@ LaTeX Info: Redefining \nameref on input line 43.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69684pt, 56.90553pt)
+* h-part:(L,W,R)=(42.67912pt, 512.1496pt, 42.67915pt)
 * v-part:(T,H,B)=(56.9055pt, 731.23582pt, 56.90552pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69684pt
+* \textwidth=512.1496pt
 * \textheight=731.23582pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
 * \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -571,6 +592,8 @@ LaTeX Info: Redefining \nameref on input line 43.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 (./main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 5.
@@ -584,91 +607,96 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: se-pdfdoc.def 2011/12/02 v1.10 stringenc: PDFDocEncoding
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 57.
-<energy_level_diagram.png, id=120, 814.04124pt x 441.65pt>
-File: energy_level_diagram.png Graphic file (type png)
-
-<use energy_level_diagram.png>
-Package pdftex.def Info: energy_level_diagram.png used on input line 65.
-(pdftex.def)             Requested size: 189.47945pt x 102.79712pt.
-
-
-Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
-environment!.
+(Font)              <14.4> on input line 68.
+<energy_level.png, id=121, 497.86pt x 605.26125pt>
+File: energy_level.png Graphic file (type png)
+ <use energy_level.png>
+Package pdftex.def Info: energy_level.png used on input line 72.
+(pdftex.def)             Requested size: 251.0748pt x 305.24353pt.
 
 
-Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
-environment!.
-
-
-LaTeX Warning: Reference `fig:energy_level' on page 1 undefined on input line 7
-2.
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 73.
+See the caption package documentation for explanation.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<magnetometry.jpg, id=180, 216.81pt x 289.44135pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./energy_level.png (PNG co
+py)>] [2] <wide_field.jpg, id=211, 949.5475pt x 435.6275pt>
+File: wide_field.jpg Graphic file (type jpg)
+
+<use wide_field.jpg>
+Package pdftex.def Info: wide_field.jpg used on input line 125.
+(pdftex.def)             Requested size: 251.0748pt x 115.18814pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 126.
+See the caption package documentation for explanation.
+
+<magnetometry.jpg, id=219, 216.81pt x 289.44135pt>
 File: magnetometry.jpg Graphic file (type jpg)
  <use magnetometry.jpg>
-Package pdftex.def Info: magnetometry.jpg used on input line 114.
-(pdftex.def)             Requested size: 189.47945pt x 252.96906pt.
+Package pdftex.def Info: magnetometry.jpg used on input line 134.
+(pdftex.def)             Requested size: 225.96577pt x 301.67877pt.
 
 
-Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
-environment!.
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 135.
+See the caption package documentation for explanation.
+
+[3 <./wide_field.jpg>] <thermometry.png, id=248, 511.9125pt x 417.56pt>
+File: thermometry.png Graphic file (type png)
+
+<use thermometry.png>
+Package pdftex.def Info: thermometry.png used on input line 145.
+(pdftex.def)             Requested size: 251.0748pt x 204.79732pt.
 
 
-Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
-environment!.
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 146.
+See the caption package documentation for explanation.
 
-[2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
-[]\OT1/cmr/m/n/10 Gopalakrishnan Bal-a-sub-ra-ma-nian et al.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
-[]\OT1/cmr/m/n/10 Philipp Neu-mann et al. ``High-precision
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
-[4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
+[4 <./magnetometry.jpg> <./thermometry.png>] [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 10649151653CC4D999D6479C61AF9531;1492.
+(rerunfilecheck)             Checksum: 44DDE4E4531E1D9FA4A49C16C2CB0C15;1599.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 15193 strings out of 495028
- 224208 string characters out of 6181497
- 413727 words of memory out of 5000000
- 18250 multiletter control sequences out of 15000+600000
+ 16231 strings out of 495028
+ 243124 string characters out of 6181497
+ 419127 words of memory out of 5000000
+ 19269 multiletter control sequences out of 15000+600000
  7033 words of font info for 25 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 37i,5n,49p,1366b,1882s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,7n,49p,1697b,2617s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmti10.pfb>
-Output written on main.pdf (4 pages, 142184 bytes).
+type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i10.pfb>
+Output written on main.pdf (6 pages, 1164515 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
- 247 compressed objects within 3 object streams
- 55 named destinations out of 1000 (max. 500000)
- 187 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 339 PDF objects out of 1000 (max. 8388607)
+ 305 compressed objects within 4 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -238,6 +238,34 @@
   \field{year}{2008}
 \endentry
 
+\entry{cui2013increased}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Cui}{C.}%
+     {Shanying}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hu}{H.}%
+     {Evelyn~L}{E.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {AIP}%
+  }
+  \strng{namehash}{CSHEL1}
+  \strng{fullhash}{CSHEL1}
+  \field{sortinit}{C}
+  \field{number}{5}
+  \field{pages}{051603}
+  \field{title}{Increased negatively charged nitrogen-vacancy centers in
+  fluorinated diamond}
+  \field{volume}{103}
+  \field{journaltitle}{Applied Physics Letters}
+  \field{year}{2013}
+\endentry
+
 \entry{doherty2014electronic}{article}{}
   \true{moreauthor}
   \name{author}{10}{}{%
@@ -422,6 +450,102 @@
   \field{year}{2011}
 \endentry
 
+\entry{fu2010conversion}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Fu}{F.}%
+     {K-MC}{K.-M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Santori}{S.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barclay}{B.}%
+     {PE}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beausoleil}{B.}%
+     {RG}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {AIP}%
+  }
+  \strng{namehash}{FKM+1}
+  \strng{fullhash}{FKMSCBPBR1}
+  \field{sortinit}{F}
+  \field{number}{12}
+  \field{pages}{121907}
+  \field{title}{Conversion of neutral nitrogen-vacancy centers to negatively
+  charged nitrogen-vacancy centers through selective oxidation}
+  \field{volume}{96}
+  \field{journaltitle}{Applied Physics Letters}
+  \field{year}{2010}
+\endentry
+
+\entry{geiselmann2013three}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Geiselmann}{G.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Juan}{J.}%
+     {Mathieu~L}{M.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Renger}{R.}%
+     {Jan}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Say}{S.}%
+     {Jana~M}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brown}{B.}%
+     {Louise~J}{L.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {De~Abajo}{D.~A.}%
+     {F~Javier~Garc{\'\i}a}{F.~J.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Koppens}{K.}%
+     {Frank}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Quidant}{Q.}%
+     {Romain}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Research}%
+  }
+  \strng{namehash}{GM+1}
+  \strng{fullhash}{GMJMLRJSJMBLJDAFJGKFQR1}
+  \field{sortinit}{G}
+  \field{number}{3}
+  \field{pages}{175\bibrangedash 179}
+  \field{title}{Three-dimensional optical manipulation of a single electron
+  spin}
+  \field{volume}{8}
+  \field{journaltitle}{Nature nanotechnology}
+  \field{year}{2013}
+\endentry
+
 \entry{haberle2013high}{article}{}
   \name{author}{5}{}{%
     {{}%
@@ -600,6 +724,49 @@
   \field{volume}{83}
   \field{journaltitle}{Physical Review B}
   \field{year}{2011}
+\endentry
+
+\entry{horowitz2012electron}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Horowitz}{H.}%
+     {Viva~R}{V.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alem{\'a}n}{A.}%
+     {Benjam{\'\i}n~J}{B.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Christle}{C.}%
+     {David~J}{D.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cleland}{C.}%
+     {Andrew~N}{A.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Awschalom}{A.}%
+     {David~D}{D.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {National Acad Sciences}%
+  }
+  \strng{namehash}{HVR+1}
+  \strng{fullhash}{HVRABJCDJCANADD1}
+  \field{sortinit}{H}
+  \field{number}{34}
+  \field{pages}{13493\bibrangedash 13497}
+  \field{title}{Electron spin resonance of nitrogen-vacancy centers in
+  optically trapped nanodiamonds}
+  \field{volume}{109}
+  \field{journaltitle}{Proceedings of the National Academy of Sciences}
+  \field{year}{2012}
 \endentry
 
 \entry{huang2007active}{article}{}
@@ -806,62 +973,57 @@
   \field{year}{2010}
 \endentry
 
-\entry{maletinsky2012robust}{article}{}
-  \name{author}{8}{}{%
+\entry{mamin2013nanoscale}{article}{}
+  \name{author}{7}{}{%
     {{}%
-     {Maletinsky}{M.}%
-     {Patrick}{P.}%
+     {Mamin}{M.}%
+     {HJ}{H.}%
      {}{}%
      {}{}}%
     {{}%
-     {Hong}{H.}%
-     {Sungkun}{S.}%
+     {Kim}{K.}%
+     {M}{M}%
      {}{}%
      {}{}}%
     {{}%
-     {Grinolds}{G.}%
-     {Michael~Sean}{M.~S.}%
+     {Sherwood}{S.}%
+     {MH}{M.}%
      {}{}%
      {}{}}%
     {{}%
-     {Hausmann}{H.}%
-     {Birgit}{B.}%
+     {Rettner}{R.}%
+     {CT}{C.}%
      {}{}%
      {}{}}%
     {{}%
-     {Lukin}{L.}%
-     {Mikhail~D}{M.~D.}%
+     {Ohno}{O.}%
+     {K}{K}%
      {}{}%
      {}{}}%
     {{}%
-     {Walsworth}{W.}%
-     {Ronald~L}{R.~L.}%
+     {Awschalom}{A.}%
+     {DD}{D.}%
      {}{}%
      {}{}}%
     {{}%
-     {Loncar}{L.}%
-     {Marko}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Yacoby}{Y.}%
-     {Amir}{A.}%
+     {Rugar}{R.}%
+     {D}{D}%
      {}{}%
      {}{}}%
   }
   \list{publisher}{1}{%
-    {Nature Publishing Group}%
+    {American Association for the Advancement of Science}%
   }
-  \strng{namehash}{MP+1}
-  \strng{fullhash}{MPHSGMSHBLMDWRLLMYA1}
+  \strng{namehash}{MH+1}
+  \strng{fullhash}{MHKMSMRCOKADRD1}
   \field{sortinit}{M}
-  \field{number}{5}
-  \field{pages}{320\bibrangedash 324}
-  \field{title}{A robust scanning diamond sensor for nanoscale imaging with
-  single nitrogen-vacancy centres}
-  \field{volume}{7}
-  \field{journaltitle}{Nature nanotechnology}
-  \field{year}{2012}
+  \field{number}{6119}
+  \field{pages}{557\bibrangedash 560}
+  \field{title}{Nanoscale nuclear magnetic resonance with a nitrogen-vacancy
+  spin sensor}
+  \field{volume}{339}
+  \field{journaltitle}{Science}
+  \field{year}{2013}
 \endentry
 
 \entry{maze2008nanoscale}{article}{}

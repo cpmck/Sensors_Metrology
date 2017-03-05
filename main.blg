@@ -15,10 +15,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: main-blx.bib
 Database file #2: my_bibliography.bib
-Repeated entry---line 67 of file my_bibliography.bib
- : @article{maletinsky2012robust
- :                              ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 248 of file my_bibliography.bib
  : @article{balasubramanian2008nanoscale
  :                                      ,
@@ -26,45 +22,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 2.8
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 27 entries,
+You've used 31 entries,
             6047 wiz_defined-function locations,
-            1294 strings with 14415 characters,
-and the built_in function-call counts, 110905 in all, are:
-= -- 4573
-> -- 3714
-< -- 928
-+ -- 1538
-- -- 1563
-* -- 10358
-:= -- 6952
+            1317 strings with 15215 characters,
+and the built_in function-call counts, 126888 in all, are:
+= -- 5301
+> -- 4236
+< -- 1089
++ -- 1748
+- -- 1747
+* -- 11668
+:= -- 7859
 add.period$ -- 0
-call.type$ -- 27
-change.case$ -- 621
+call.type$ -- 31
+change.case$ -- 736
 chr.to.int$ -- 34
-cite$ -- 52
-duplicate$ -- 12961
-empty$ -- 10928
-format.name$ -- 3098
-if$ -- 23979
+cite$ -- 60
+duplicate$ -- 14792
+empty$ -- 12522
+format.name$ -- 3471
+if$ -- 27564
 int.to.chr$ -- 0
-int.to.str$ -- 80
+int.to.str$ -- 92
 missing$ -- 0
-newline$ -- 1342
-num.names$ -- 1487
-pop$ -- 8843
+newline$ -- 1500
+num.names$ -- 1734
+pop$ -- 10154
 preamble$ -- 1
-purify$ -- 799
+purify$ -- 933
 quote$ -- 0
-skip$ -- 5866
+skip$ -- 6789
 stack$ -- 0
-substring$ -- 2911
-swap$ -- 4533
-text.length$ -- 792
-text.prefix$ -- 62
+substring$ -- 3442
+swap$ -- 5172
+text.length$ -- 900
+text.prefix$ -- 70
 top$ -- 1
-type$ -- 1014
+type$ -- 1166
 warning$ -- 0
-while$ -- 534
+while$ -- 608
 width$ -- 0
-write$ -- 1314
-(There were 2 error messages)
+write$ -- 1468
+(There was 1 error message)
